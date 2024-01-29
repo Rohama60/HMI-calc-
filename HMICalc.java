@@ -24,10 +24,6 @@ public class HMICalc {
         double hmi = weightKg / Math.pow(heightM, 2); //
         //(heightM*heightM);
 
-
-        // Round HMI to a whole number
-        //int roundedHMI = (int) Math.round(hmi);
-
         // Display the calculated HMI
         System.out.println("User has a HMI of " + hmi);
 
@@ -35,9 +31,6 @@ public class HMICalc {
         if (hmi <= 18.5) {
             System.out.println("HMI of " + hmi + " needs calorie increase");
 
-            // and operator = &&
-            // or operator = ||
-            // Not operator !=
         } else if (hmi > 18.5 && hmi <= 25) {
             System.out.println("HMI of " + hmi + " should maintain current calorie intake");
 
